@@ -1,0 +1,23 @@
+#!/bin/bash
+
+COLOR='\033[0;31m'
+NOCOLOR='\033[0m'
+lang=$(xset -q | grep -A 0 'LED' | cut -c59-67)
+
+case $lang in
+	"00000000")
+		echo US
+		;;
+	"00001000")
+		echo HE
+		;;
+	"00000002")
+		echo NLock
+		;;
+	"00001002")
+		echo NLock
+		;;
+	*)
+		echo ${lang}
+		;;
+esac

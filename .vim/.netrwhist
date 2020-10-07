@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/konstantin/Разное - Сортировка/temp/python_example'
+let g:netrw_dirhist_2='/home/konstantin/Разное - Сортировка/temp'
+let g:netrw_dirhist_3='/home/konstantin/Разное - Сортировка/temp/python_example_recent'
+let g:netrw_dirhist_4='/home/konstantin/TASKS/R3000_Research/jobs'
+let g:netrw_dirhist_5='/home/konstantin/Devices_And_Scripts/Robustel_R-3000/App_building/example_app'
+let g:netrw_dirhist_6='/home/konstantin/Devices/src/sensors/BravoControls_CO2'
+let g:netrw_dirhist_7='/home/konstantin/Devices/src/sensors/RS_WS_NO1_8'
